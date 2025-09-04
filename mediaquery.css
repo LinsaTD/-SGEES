@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   .hero-section .container {
     width: 120px;
     height: 60px;
@@ -86,7 +86,7 @@
   .hero-content h1 {
     font-size: 1rem;
   }
-}
+}*/
 
 /* Responsive styles for gallery section */
 
@@ -251,3 +251,4 @@
 
 
 }
+
