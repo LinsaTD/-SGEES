@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Overlapping Images Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="mediaquery.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- <header>
+
+
+    <div class="header-container">
+      <a href="# " class="logo-link">
+        <img src="logo.jpg" alt="Logo" class="logo-img">
+      </a>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <label for="menu-toggle" class="close-menu">&times;</label>
+
+    </div>
+
+  </header>
+
+   Navigation Bar 
+  <nav class="navbar">
+    <a href="#" class="nav-icon active" title="Home">
+      <img src="home.png" alt="Home" class="nav-img-icon">
+    </a>
+       <a href="#about" class="nav-icon " title="About-Us">
+      <img src="company.png" alt="Home" class="nav-img-icon">
+    </a>
+    <a href="#gallery" class="nav-icon" title="Gallery" id="galleryNav">
+      <img src="oil-icon.png" alt="Gallery" class="nav-img-icon">
+    </a>
+    <a href="#services" class="nav-icon" title="Services">
+      <img src="box-truck.png" alt="Service" class="nav-img-icon">
+    </a>
+    <a href="#contact" class="nav-icon" title="Contact">
+      <img src="contact-mail.png" alt="Contact" class="nav-img-icon">
+    </a>
+     <label for="menu-toggle" class="close-menu">&times;</label>
+      
+  </nav> -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo-link">
+        <img src="logo.jpg" alt="Logo" class="logo-img">
+      </a>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <nav class="navbar">
+        <a href="#" class="nav-icon active" title="Home">
+          <img src="home.png" alt="Home" class="nav-img-icon">
+          <!-- <span>Home</span> -->
+        </a>
+        <a href="#about" class="nav-icon" title="About-Us">
+          <img src="company.png" alt="About-Us" class="nav-img-icon">
+          <!-- <span>About Us</span> -->
+        </a>
+        <a href="#gallery" class="nav-icon" title="Gallery" id="galleryNav">
+          <img src="oil-icon.png" alt="Gallery" class="nav-img-icon">
+
+        </a>
+        <a href="#services" class="nav-icon" title="Services">
+          <img src="box-truck.png" alt="Service" class="nav-img-icon">
+
+        </a>
+        <a href="#contact" class="nav-icon" title="Contact">
+          <img src="contact-mail.png" alt="Contact" class="nav-img-icon">
+
+        </a>
+        <label for="menu-toggle" class="close-menu">&times;</label>
+      </nav>
+    </div>
+  </header>
+  <div class="main-content">
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to SGEES Foodstuff Trading LLC</h1>
+        <p class="hero-tagline">Delivering premium oils, pickles, tahini, and more to your doorstep.</p>
+      </div>
+      <div class="container">
+        <img src="oils.jpg" class="overlap-img overlap-img1" alt="Rich and aromatic oils">
+        <img src="pickles.jpg" class="overlap-img overlap-img2" alt="Tangy artisanal pickles">
+        <img src="tahini-sesame.jpg" class="overlap-img overlap-img3" alt="Creamy tahini and sesame">
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <h2>About Us</h2>
+        <p>
+          Welcome to SGEES Foodstuff Trading LLC, your trusted partner for delivering premium food products right to
+          your doorstep. We specialize in bringing the finest food treasures , ensuring that every bite is a
+          delight.<br> Our range includes:
+        </p>
+        <br>
+        <ul>
+          <li>Rich and aromatic oils</li>
+          <li>Tangy artisanal pickles</li>
+          <li>olives</li>
+          <li>Sweet dates</li>
+          <li>Creamy tahini</li>
+          <li>Decadent tahini halva</li>
+          <li>And many more!</li>
+        </ul>
+
+        We're committed to delivering quality, authenticity, and taste. Our team works tirelessly to source the best
+        products and deliver them to you with care and precision. With our efficient delivery service, you can enjoy the
+        flavors of the world without leaving your home. Order now and experience the convenience of having gourmet food
+        delivered right to you!
+
+        Delivery Promise:
+
+        <ul>
+          <li>Fast and reliable delivery</li>
+          <li>Secure packaging to ensure product freshness</li>
+          <li>Tracking updates for your convenience</li>
+        </ul>
+
+        Why Choose Us:
+        <ul>
+          <li>Wide range of premium food products</li>
+          <li>Commitment to quality and authenticity</li>
+          <li>Excellent customer service</li>
+        </ul>
+
+        Order now and taste the difference!
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+      <div class="gallery-container">
+        <div class="gallery-intro">
+           <h2>Explore Our Products</h2>
+          <p>Click on any category to view our exquisite range of products.</p>
+        </div>
+         <div class="gallery-row">
+        <div class="gallery-item" data-type="oils">
+          <img src="oil.jpg" alt="Oils" class="gallery-img">
+          <span class="gallery-label">Oils</span>
+        </div>
+        <div class="gallery-item" data-type="pickles">
+          <img src="pickledveg.jpg" alt="Pickles" class="gallery-img">
+          <span class="gallery-label">Olives and Pickles</span>
+        </div>
+        <div class="gallery-item" data-type="sesame">
+          <img src="sesame.jpg" alt="Sesame" class="gallery-img">
+          <span class="gallery-label">Sesame</span>
+        </div>
+        <div class="gallery-item" data-type="extras">
+          <img src="extras.jpg" alt="Extras" class="gallery-img">
+          <span class="gallery-label">Extras</span>
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+  <!-- Popup Section -->
+  <div class="popup-section" id="popupSection">
+    <div class="popup-content">
+      <button class="popup-close" id="popupClose" aria-label="Close">&times;</button>
+      <div class="popup-title" id="popupTitle"></div>
+      <div class="popup-images" id="popupImages"></div>
+    </div>
+  </div>
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <i class="fas fa-shipping-fast service-icon"></i>
+        <h3>Fast Delivery</h3>
+        <p>We ensure quick and reliable delivery of your orders.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-box
+  service-icon"></i>
+        <h3>Secure Packaging</h3>
+        <p>Your products are packed with care to ensure they arrive in perfect condition.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-headset service-icon"></i>
+        <h3>Customer Support</h3>
+        <p>Our team is here to assist you with any inquiries or issues.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact_main-container">
+      <div class="help_container">
+        <h3>Info & Support</h3>
+        <p>Have questions or need assistance? Reach out to us!</p>
+
+        <div class="info_container">
+          <h3>Info</h3>
+          <p>Get in touch with our sales team to see how we can work together</p>
+          <div class="sales-buttons">
+            <a href="mailto:info@sgees.com" class="sales-btn" target="_blank">
+              <i class="fas fa-envelope"></i> <span>info@sgees.com</span>
+            </a>
+            <a href="https://wa.me/+971503574337" class="sales-btn" target="_blank">
+              <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+            </a>
+            <a href="tel:+97145701465" class="sales-btn" target="_blank">
+              <i class="fas fa-phone"></i> <span>Call</span>
+            </a>
+          </div>
+        </div>
+        <div class="sales_container">
+            <h3>Sales</h3>
+            <p>Get in touch with our sales team to see how we can work together</p>
+            <div class="sales-buttons">
+              <a href="mailto:sales@sgees.com" class="sales-btn" target="_blank">
+                <i class="fas fa-envelope"></i> <span>Email</span>
+              </a>
+              <a href="https://wa.me/+971503574337" class="sales-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+              </a>
+              <a href="tel:+97145701465" class="sales-btn" target="_blank">
+                <i class="fas fa-phone"></i> <span>Call</span>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+      <div class="address-container">
+        <div class="address">
+          <h3>Our Address</h3>
+          <p>SGEES Foodstuff Trading LLC,<br>Rashed Bin Harmash Building, Shop No.7,<br>Margham,Camel Market,<br>Dubai,UAE</p><br>Mobile: +971 503574337<br>Phone: +971 4 570 1465<br>Email:info@sgees.com
+        </div>
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.08293415736892!2d55.50651151018403!3d24.954988616423737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5810051dc59d9%3A0x46b81c3b170a100a!2sSGEES%20Foodstuff%20Trading%20LLC!5e0!3m2!1sen!2sae!4v1756045738987!5m2!1sen!2sae"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+  </section>
+  <!-- Footer Section -->
+  <section class="footer">
+    <p>&copy; 2024 SGEES Foodstuff Trading LLC. All rights reserved.</p>
+</body>
+
+</html>
