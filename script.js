@@ -18,7 +18,7 @@
         ]
       },
       pickles: {
-        title: "Tangy artisanal pickles.'",
+        title: "Tangy artisanal pickles",
         images: [
           "green-olives.jpg",
           "blackolive.jpg",
